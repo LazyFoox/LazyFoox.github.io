@@ -2,5 +2,38 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
+}
+
+body {
+  background-color: black;
+}
+
+.gradient {
+  background: linear-gradient(to top, #990000, #000000);
+  height: 100px;
+  position: bottom;
+}
+
+.box {
+  width: 200px;
+  height: 50px;
+  background-color: darkslateblue;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  padding: 18px;
+}
+
+.box::after {
+  content: 'About Me';
+  display: block;
+  margin: 0 auto;
+  color: white;
+  font-size: 20px;
+}
+.active, .box:hover {
+  content: "gag";
+  background-color: blueviolet;
+  height: 150px;
 }
