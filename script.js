@@ -5,7 +5,7 @@ btn.addEventListener('click', function handleClick() {
   const initialText = 'Click me';
 
   if (btn.textContent.toLowerCase().includes(initialText.toLowerCase())) {
-    btn.textContent = 'Button clicked fortnite battle passs ya';
+    btn.textContent = 'Button clicked ya';
   } else {
     btn.textContent = initialText;
   }
